@@ -50,9 +50,49 @@
             color: white;
             text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
             position: absolute;
-            left: 20px;
+            left: 0px;
             top: 50%;
             transform: translateY(-50%);
+            margin-left: 20px;
+            text-decoration: none;
+        }
+
+        /* Hide any unwanted GitHub links */
+        .logo a {
+            display: none !important;
+        }
+
+        .header a:not(.nav-links a) {
+            display: none !important;
+        }
+
+        /* Ensure no links appear in header except navigation */
+        .header .container > *:not(.nav) {
+            display: none !important;
+        }
+
+        /* Hide any GitHub generated content */
+        .header .logo::after {
+            display: none !important;
+        }
+
+        /* Hide any additional text or links that might appear */
+        .header > *:not(.nav):not(.container) {
+            display: none !important;
+        }
+
+        /* Force clean header */
+        .header * {
+            text-decoration: none !important;
+        }
+
+        /* Hide any external links in header area */
+        .header [href] {
+            display: none !important;
+        }
+
+        .header .nav-links [href] {
+            display: inline !important;
         }
 
         .nav-links {
