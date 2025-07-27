@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -39,10 +38,10 @@
 
         .nav {
             display: flex;
-            justify-content: flex-start;
+            justify-content: space-between;
             align-items: center;
             padding: 0.5rem 0;
-            position: relative;
+            width: 100%;
         }
 
         .logo {
@@ -50,12 +49,8 @@
             font-weight: bold;
             color: white;
             text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-            margin-right: auto;
-        }
-
-        .nav-links {
             position: absolute;
-            right: 0;
+            left: 20px;
             top: 50%;
             transform: translateY(-50%);
         }
@@ -64,6 +59,14 @@
             display: flex;
             list-style: none;
             gap: 2rem;
+            margin-left: auto;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            margin-left: auto;
         }
 
         .nav-links a {
