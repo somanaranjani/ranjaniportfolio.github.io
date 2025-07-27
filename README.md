@@ -1,6 +1,3 @@
-🌐 Live Website
-Visit my portfolio: https://somanaranjani.github.io/ranjaniportfolio
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
