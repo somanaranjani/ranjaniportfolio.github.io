@@ -1,5 +1,5 @@
 🌐 Live Website
-Visit my portfolio: https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME
+Visit my portfolio: https://somanaranjani.github.io/ranjaniportfolio
 
 <!DOCTYPE html>
 <html lang="en">
